@@ -11,3 +11,5 @@ area = (base * altura)
 
 print('\n' + 'A área do quadrado foi calculada: ', area, '\n')
 print('\n' + 'O dobro dessa área, então: ', (area*2), '\n\n')
+
+# gg
