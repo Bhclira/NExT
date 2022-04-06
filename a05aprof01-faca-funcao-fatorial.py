@@ -2,9 +2,6 @@
 
 num = int(input('\nDigite Número Inteiro e Positivo: '))
 
-contador = 1
-
-
 def calcule_fatorial(n):
     if n == 0:
         return 0
@@ -15,7 +12,6 @@ def calcule_fatorial(n):
         for i in range(1,n+1):
             resultado = resultado * i
         return resultado
-        
           
 print('\nResultado Fatorial para {num}: ')
 print(calcule_fatorial(num))
