@@ -26,3 +26,29 @@ Neste arquivo, o nome do usuário possui 15 caracteres. A partir deste arquivo, 
 
  O arquivo de entrada deve ser lido uma única vez, e os dados armazenados em memória, caso sejam necessários, de forma a agilizar a execução do programa. A conversão da espaço ocupado em disco, de bytes para megabytes deverá ser feita através de uma função separada, que será chamada pelo programa principal. O cálculo do percentual de uso também deverá ser feito através de uma função, que será chamada pelo programa principal.
 '''
+def conversorByte(lst):
+    lista_covertida = []
+    for i in lst:
+        i*
+
+
+
+lista1 = []
+lista2 = []
+
+with open ('/home/brenoman/Documentos/GitHub/NExT/NExT/Arquivos/relatorio.txt', 'w') as relatorio:
+    with open('/home/brenoman/Documentos/GitHub/NExT/NExT/Arquivos/usuarios.txt') as usuarios:
+        for linha in usuarios:
+            linha = linha.rstrip()
+            
+            user = linha.split(';')[0]
+            lista1.append(user)
+
+            space = linha.split(';')[-1]
+            lista2.append(int(space))
+
+print(f'{lista1} e {lista2}')
+
+
+
+           

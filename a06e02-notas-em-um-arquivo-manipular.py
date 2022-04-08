@@ -15,7 +15,7 @@ with open ('/home/brenoman/Documentos/GitHub/NExT/NExT/Arquivos/notas.txt') as n
       soma = 0  # crie e inicialize um Acumulador
       for linha in notas:
           soma = soma + float(linha)   # adiciona os VALORES de cada linha ao Acumulador
-          lista2.append(float(linha))   #acrescenta os valores de cada linha na lista vazia Lista2
+          lista2.append(float(linha))   # acrescenta os valores de cada linha na lista vazia Lista2
 
 # A.1
 print(f'\nMédia das Notas Contidas no Arquivo: {sum(lista2)/len(lista2):.2f}')
