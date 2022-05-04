@@ -19,5 +19,5 @@ b = len(nomeFatiado[-1])
 print (f'Quantas letras tem a última palavra: {b}')
 
 # letra C
-c = nomeFatiado[0].join(nomeFatiado[-1])
-print (f'Primeiro nome Concatena Ultimo: {c}')
+c = " ".join(nomeFatiado[0:2])
+print (f'Primeiro nome Concatena Ultimo: {c.title()}')
