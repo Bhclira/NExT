@@ -2,10 +2,10 @@
 ex05 - Faça um Programa que converta metros para centímetros
 '''
 
-print('Bem-vindos ao Conversor de medidas METRO-Centímetro/n')
+print('\nBem-vindos ao Conversor de medidas METRO-Centímetro')
 
-medida = float(input('Digite uma medida [em metros] para conversão: '))
+medida = float(input('\nDigite uma medida [em metros] para conversão: '))
 
 resultado = medida*100
 
-print(f'A medida em centímetros calculada foi de: {resultado}')
+print(f'A medida em centímetros calculada foi de: {resultado}\n')
