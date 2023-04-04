@@ -4,7 +4,6 @@ n = int(input("Digite o numero de vezes que vai rodar o programa: "))
 
 for i in range(0,n):
 
-    
     a = int(input("Digite o valor de A: "))
     if a!=0:
 
@@ -12,7 +11,7 @@ for i in range(0,n):
         c = int(input("Digite o Valor de C: "))
 
         delta = b**2 - 4 * a * c
-        if delta<0:
+        if delta < 0:
             print('Não existem raízes reais com DELTA negativo')
         
         elif delta == 0:
