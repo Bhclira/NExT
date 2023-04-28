@@ -1,6 +1,14 @@
 vetor = []
 
-for i in range(5):
-    vetor.append(int(input(f"Digite um valor para a posição {i}: " )))
+while True:
 
-print(vetor[2])
+    print()
+    vetor.append(int(input(f'Digite um valor inteiro para adicionar à lista: ')))
+
+    opc = input('Digite se quer adicionar mais um numero [S/N]: ')
+
+    if opc in 'Nn':
+        print(f'\nSua lista gerada foi: {vetor}\n')
+        break
+
+print(f'Valor da lista encontrado na posição 2 foi: {vetor[2]}')

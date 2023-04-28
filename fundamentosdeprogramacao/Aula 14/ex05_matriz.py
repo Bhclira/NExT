@@ -9,12 +9,16 @@ matrix = [[],[]]
 for linha in range(2):
     for coluna in range(4):
         matrix[linha].append(int(input(f'Digite uma valor para a posição [{linha}] [{coluna}]: ')))
+        print(matrix)
 
+print()
 print('*' * 24)
 for linha in range(2):
         for coluna in range (4):
             print(f'[{matrix[linha][coluna]:^4}]', end="")
+        
         print()
+
 print('*' * 24)
 
-print(matrix[1][2])
+print(f'\nlinha[0] coluna[2] da MATRIZ: [{matrix[0][2]:^4}]\n')
