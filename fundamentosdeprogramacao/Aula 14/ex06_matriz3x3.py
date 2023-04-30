@@ -28,7 +28,7 @@ print(f'\nA soma dos número ÌMPARES encontrados foi: [{somaImpar}]')
 
 # soma dos valores de uma linha [0]
 for linha in range(3):
-    somaColuna1 = somaColuna1 + matriz[linha][0]
+    somaColuna1 += matriz[linha][0]
 
 print(f'A soma da primeira coluna foi: {somaColuna1}')
 
