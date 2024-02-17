@@ -1,3 +1,4 @@
 # NExT
- Nova Experiência em Trabalho - Cesar School - Br
- my First xp with Python Language
+ Nova Experiência em Trabalho - Cesar School - Br ;
+ Here my First xp with Python Language ;
+ Lists of Exercises, Challenges & Pratice.
